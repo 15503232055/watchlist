@@ -77,6 +77,7 @@ def forge():
         {'title': 'Devils on the Doorstep', 'year': '1999'},
         {'title': 'WALL-E', 'year': '2008'},
         {'title': 'The Pork of Music', 'year': '2012'},
+		{'title': '无双', 'year': '2018'},
     ]
     
     user = User(name=name)
@@ -87,6 +88,8 @@ def forge():
     
     db.session.commit()
     click.echo('Done.')	
+	
+	
 '''	
 name = 'Wanzone'
 movies = [
